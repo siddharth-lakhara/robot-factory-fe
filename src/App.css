@@ -1,3 +1,8 @@
 .App {
   text-align: center;
 }
+
+.App-body {
+  background: #F8F8F8;
+  flex: 1;
+}
