@@ -1,0 +1,20 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  background: lightgray;
+}
+
+.Header-home {
+  cursor: pointer;
+}
+
+.Header-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.Header-cart {
+  cursor: pointer;
+}
