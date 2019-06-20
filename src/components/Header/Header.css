@@ -1,12 +1,16 @@
 .Header {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: 1rem 5rem;
   background: lightgray;
 }
 
-.Header-home {
+.Header-icon {
   cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  color: black;
+  text-decoration: none;
 }
 
 .Header-title {
@@ -15,6 +19,8 @@
   flex: 1;
 }
 
-.Header-cart {
-  cursor: pointer;
+@media screen and (max-width: 560px) {
+  .Header {
+    padding: 1rem;
+  }   
 }

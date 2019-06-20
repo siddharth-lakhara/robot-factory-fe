@@ -1,17 +1,22 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom';
 import './Header.css';
 
 export default class Header extends Component {
   render() {
-    return (
+   return (
       <div className="Header">
-        <div className="Header-home">
-          <i class="material-icons">android</i>
-        </div>
+        <Link to="/">
+          <div className="Header-icon" onClick={this.redirectToHomePage}>
+            <i className="material-icons">android</i>
+          </div>
+        </Link>
         <div className="Header-title">Robo Factory</div>
-        <div className="Header-cart">
-          <i class="material-icons">shopping_cart</i>
-        </div>
+        <Link to="/cart">
+          <div className="Header-icon">
+            <i className="material-icons">shopping_cart</i>
+          </div>
+        </Link>
       </div>
     )
   }
