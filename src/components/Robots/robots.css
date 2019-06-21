@@ -1,0 +1,41 @@
+.robots-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.robots-items {
+  padding: 1rem;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.robo-name {
+  font-weight: bold;
+}
+
+.robo-img {
+  width: 100%;
+  flex-basis: 70%;
+}
+
+.robots-items-counter {
+  display: flex;
+}
+
+.counter-decr {
+  flex-basis: 20%;
+  cursor: pointer;
+}
+
+.counter-count {
+  flex: 1;
+}
+
+.counter-incr {
+  flex-basis: 20%;
+  cursor: pointer;
+}

@@ -9,4 +9,5 @@
 .App-body {
   background: #F8F8F8;
   flex: 1;
+  padding: 1rem 2rem;
 }
