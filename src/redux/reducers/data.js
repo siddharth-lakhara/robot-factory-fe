@@ -10,7 +10,7 @@ const data = (state = defaultState, action) => {
         ...state, 
         [id]: {
         ...state[id],
-        count: state[id] + 1 
+        count: state[id].count + 1 
         }
       };
     case 'DECREMENT':
@@ -18,7 +18,7 @@ const data = (state = defaultState, action) => {
         ...state,
         [id]: {
           ...state[id],
-          count: state[id] > 0 ? + state[id] - 1 : 0
+          count: state[id].count > 0 ? + state[id].count - 1 : 0
         }
       };
     default:
