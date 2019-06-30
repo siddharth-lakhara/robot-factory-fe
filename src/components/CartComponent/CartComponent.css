@@ -1,0 +1,24 @@
+
+.cart-item {
+  width: 100%;
+  min-height: 10vh;
+  /* background: pink; */
+  display: flex;
+  text-align: left;
+  box-shadow: 2px;
+}
+
+.cart-robo-img {
+  height: 100%;
+}
+
+.cart-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cart-checkout {
+  font-size: 1.5rem;
+}

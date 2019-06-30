@@ -4,7 +4,6 @@ import Chance from 'chance';
 const c = new Chance();
 
 const createDB = () => {
-  console.log('creating db');
   const db = {};
   for (let i = 0; i < 10; i++) {
     const id = uuid();
